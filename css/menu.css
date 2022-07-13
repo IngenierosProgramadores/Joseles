@@ -41,3 +41,13 @@
   padding-top: 0.5rem;
   font-size: 1.2rem;
 }
+
+@media (max-width: 968px) {
+  #slider {
+    max-height: 50vh;
+  }
+  .menu-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
