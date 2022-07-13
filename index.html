@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joseles</title>
+    <title>Carnitas Joseles</title>
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="brand-title">
-          <a href="/"><img src="./assets/logo_joseles.png" alt="logo_joseles.png" /></a>
+          <a href="/"><img src="./assets/logo_nav.png" alt="logo_joseles.png" /></a>
         </div>
         <div class="toggle-button">
           <span class="bar"></span>
@@ -20,7 +24,7 @@
           <span class="bar"></span>
         </div>
         <div class="navbar-links">
-          <ul>
+          <ul class="navbar-item">
             <li>
               <a href="#home" class="navbar-item-home-color">INICIO</a>
             </li>
@@ -28,10 +32,10 @@
               <a href="#menu" class="navbar-item-others-color">MENÚ</a>
             </li>
             <li>
-              <a href="#especiales" class="navbar-item-others-color">ESPECIALES</a>
+              <a href="#eventos" class="navbar-item-others-color">EVENTOS</a>
             </li>
             <li>
-              <a href="#galeria" class="navbar-item-others-color">GALERÍA</a>
+              <a href="#plataformas" class="navbar-item-others-color">PLATAFORMAS</a>
             </li>
             <li>
             <a href="#nosotros" class="navbar-item-others-color">NOSOTROS</a>
@@ -39,10 +43,17 @@
           </ul>
         </div>
       </nav>
+
       <main></main>
-    <section id="menu"></section>
-    <section id="especiales"></section>
-    <section id="galeria"></section>
+
+    <section id="menu" class="menu"></section>
+
+    <section id="eventos"></section>
+
+    <section id="plataformas"></section>
+
     <section id="nosotros"></section>
+
+    <script type="text/javascript" src="./js/navbar.js></script>
 </body>
 </html>

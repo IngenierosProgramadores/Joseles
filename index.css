@@ -1,10 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --main-color: #EA5C2B;
+  --green:#74B517;
+  --organge-second:#FFAB76;
+  --gray:#2E2D2C;
+  --blue: #002755;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+@font-face {
+  font-family: "Leckerli_one";
+  src: url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+}
+@font-face {
+  font-family: "Concert_one";
+  src: url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+}
+
 * {
   box-sizing: border-box;
-  font-family: cairo, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', cursive, Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 body {
   font-size: 18px;
+  margin: 0;
+}
+nav{
+  font-family: "Concert_one",Arial, Helvetica, sans-serif;
 }

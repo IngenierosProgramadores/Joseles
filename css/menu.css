@@ -1,0 +1,8 @@
+.menu{
+    min-height: 100vh;
+    background: var(--green);
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
