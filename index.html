@@ -1,52 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carnitas Joseles</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="brand-title">
-          <a href="/"><img src="./assets/logo_nav.png" alt="logo_joseles.png" /></a>
-        </div>
-        <div class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <div class="navbar-links">
-          <ul class="navbar-item">
-            <li>
-              <a href="#home" class="navbar-item-home-color">INICIO</a>
-            </li>
-            <li>
-              <a href="#menu" class="navbar-item-others-color">MENÚ</a>
-            </li>
-            <li>
-              <a href="#eventos" class="navbar-item-others-color">EVENTOS</a>
-            </li>
-            <li>
-              <a href="#plataformas" class="navbar-item-others-color">PLATAFORMAS</a>
-            </li>
-            <li>
+      <div class="brand-title">
+        <a href="/"
+          ><img src="./assets/logo_nav.png" alt="logo_joseles.png"
+        /></a>
+      </div>
+      <div class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="navbar-links">
+        <ul class="navbar-item">
+          <li>
+            <a href="#home" class="navbar-item-home-color">INICIO</a>
+          </li>
+          <li>
+            <a href="#menu" class="navbar-item-others-color">MENÚ</a>
+          </li>
+          <li>
+            <a href="#eventos" class="navbar-item-others-color">EVENTOS</a>
+          </li>
+          <li>
+            <a href="#plataformas" class="navbar-item-others-color"
+              >PLATAFORMAS</a
+            >
+          </li>
+          <li>
             <a href="#nosotros" class="navbar-item-others-color">NOSOTROS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main></main>
+
+<!-- Menu -->
+    <section id="menu" class="menu">
+      <!-- Left Side -->
+      <div class="menu-grid">
+        <div id="container-slider">
+          <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"
+            ><i class="fas fa-chevron-circle-left"></i
+          ></a>
+          <a href="javascript: fntExecuteSlide('next');" class="arrowNext"
+            ><i class="fas fa-chevron-circle-right"></i
+          ></a>
+          <ul class="listslider">
+            <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+            <li><a itlist="itList_1" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+          </ul>
+          <ul id="slider">
+            <li
+              style="
+                background-image: url('./assets/menu_1.webp');
+                z-index: 0;
+                opacity: 1;
+              "
+            >
+              <div class="content_slider">
+                <!-- <div>
+                <h1>PRODUCTOS Y SERVICIOS DE CARPINTERIA</h1>
+                  <p>
+                    Descubre nuestra gran variedad de productos y servicios que
+                    tenemos para ti.
+                  </p>
+                  <a href="#productos-y-servicios" class="btnSlider">Ver más</a>
+                </div>
+              </div> -->
+            </li>
+            <li style="background-image: url('./assets/menu_2.jpg')">
+              <div class="content_slider">
+                <!-- <div>
+                  <h2>DESCUBRE NUESTRO TRABAJO</h2>
+                  <p>
+                    Mira nuestro portafolio de trabajo en la sección de galería
+                    y descubre todo lo que podemos hacer para ti.
+                  </p>
+                  <a href="#gallery" class="btnSlider">Ver galería</a>
+                </div> -->
+              </div>
+            </li>
+            <li style="background-image: url('./assets/menu_3.jpg')">
+              <div class="content_slider">
+                <!-- <div>
+                  <h2>PONTE EN CONTACTO</h2>
+                  <p>
+                    Escribenos y muy pronto nos pondremos en contacto contigo.
+                  </p>
+                  <a href="#contacto" class="btnSlider">Contactanos</a>
+                </div> -->
+              </div>
             </li>
           </ul>
         </div>
-      </nav>
 
-      <main></main>
-
-    <section id="menu" class="menu"></section>
+        <!-- Right Side -->
+        <div sce>
+          <div class="header-sections">
+            <h2>
+              Disfruta de los mejores platillos
+            </h2>
+            <p>
+              Ven y conoce nuestra gran variedad 
+              de comida que tenemos para tí.
+            </p>
+          </div>
+          <div class="menu-list">
+            <div class="menu-list-item">
+              <h3>Tacos</h3>
+              <ul>
+                <li>Asada</li>
+                <li>Birria</li>
+                <li>Surtido</li>
+                <li>Buche</li>
+                <li>Cuerito</li>
+                <li>Maciza</li>
+              </ul>
+            </div>
+            <div class="menu-list-item">
+              <h3>Gorditas</h3>
+              <ul>
+                <li>Chicharron</li>
+                <li>Queso</li>
+                <li>Papa</li>
+                <li>Frijol</li>
+                <li>Combinadas</li>
+              </ul>
+            </div>
+            <div class="menu-list-item">
+              <h3>Quesadillas</h3>
+              <ul>
+                <li>Sencilla</li>
+                <li>Con carne chica</li>
+                <li>Con carne grande</li>
+              </ul>
+            </div>
+            <div class="menu-list-item">
+              <h3>Comida corrida</h3>
+              <ul>
+                <li>Milanesa de pollo o res</li>
+                <li>Pollo a la plancha</li>
+                <li>Carne asada</li>
+                <li>Nachos con asada</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Menu -->
 
     <section id="eventos"></section>
 
@@ -54,6 +178,7 @@
 
     <section id="nosotros"></section>
 
-    <script type="text/javascript" src="./js/navbar.js></script>
-</body>
+    <script type="text/javascript" src="./js/navbar.js"></script>
+    <script defer src="./js/functions.js"></script>
+  </body>
 </html>

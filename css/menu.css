@@ -1,8 +1,43 @@
-.menu{
-    min-height: 100vh;
-    background: var(--green);
+.menu {
+  min-height: 100vh;
+  background: var(--green);
 }
-.menu-grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.header-sections {
+  text-align: center;
+  color: #fff;
+  margin: 3rem 2rem 2rem;
+}
+.header-sections h2 {
+  font-size: 3rem;
+  font-family: "Leckerli_one", cursive;
+  text-shadow: 2px 2px 2px #000;
+}
+.header-sections p {
+  font-size: 1.5rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 1rem 2rem;
+}
+.menu-list {
+  color: #fff;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(2.1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 2rem 1rem;
+}
+.menu-list h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.menu-list ul {
+  list-style: none;
+}
+.menu-list li {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
 }
