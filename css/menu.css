@@ -35,6 +35,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   color: var(--main-color);
+  text-shadow: 2px 2px 2px #000;
 }
 .menu-list ul {
   list-style: none;

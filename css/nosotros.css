@@ -90,4 +90,7 @@
     width: 100%;
     height: 40vh;
   }
+  .powered {
+    padding: 5% 0;
+  }
 }
