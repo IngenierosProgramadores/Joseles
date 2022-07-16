@@ -1,11 +1,10 @@
 @font-face {
   font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+  src: url("./fonts/Roboto-Medium.ttf");
 }
-
 @font-face {
   font-family: "Concert_one";
-  src: url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+  src: url("./fonts/ConcertOne-Regular.ttf");
 }
 @font-face {
   font-family: "Leckerli_one";
@@ -25,7 +24,7 @@
 }
 body {
   font-size: 76%;
-  font-family: "Roboto", cursive, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 nav {
   font-family: "Concert_one", Arial, Helvetica, sans-serif;

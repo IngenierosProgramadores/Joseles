@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/carousel.css" />
     <link rel="stylesheet" href="css/eventos.css" />
+    <link rel="stylesheet" href="css/plataformas.css" />
+    <link rel="stylesheet" href="css/nosotros.css" />
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -55,15 +57,13 @@
 
     <main>
       <div class="div-main">
-        <label class="text-size-main-image">Disfruta de los</label>
-        <label class="text-size-main-image">mejores platillos</label>
-        <label class="text-size-last-title">Mira nuestro menú y ordena</label>
-        <button class="btn-main" type="button">¡Haz clic!</button>
+        <h2 class="text-size-main-image">Disfruta de los mejores platillos</h2>
+        <p class="text-size-last-title">Mira nuestro menú y ordena</p>
+        <a href="#menu" class="btn-main">¡Haz clic!</a>
       </div>
-      
     </main>
 
-<!-- Menu -->
+    <!-- Menu -->
     <section id="menu" class="menu">
       <!-- Left Side -->
       <div class="menu-grid">
@@ -82,57 +82,23 @@
           <ul id="slider">
             <li
               style="
-                background-image: url('./assets/menu_1.webp');
+                background-image: url('./assets/carousel-2.jpeg');
                 z-index: 0;
                 opacity: 1;
               "
-            >
-              <div class="content_slider">
-                <!-- <div>
-                <h1>PRODUCTOS Y SERVICIOS DE CARPINTERIA</h1>
-                  <p>
-                    Descubre nuestra gran variedad de productos y servicios que
-                    tenemos para ti.
-                  </p>
-                  <a href="#productos-y-servicios" class="btnSlider">Ver más</a>
-                </div>
-              </div> -->
-            </li>
-            <li style="background-image: url('./assets/menu_2.jpg')">
-              <div class="content_slider">
-                <!-- <div>
-                  <h2>DESCUBRE NUESTRO TRABAJO</h2>
-                  <p>
-                    Mira nuestro portafolio de trabajo en la sección de galería
-                    y descubre todo lo que podemos hacer para ti.
-                  </p>
-                  <a href="#gallery" class="btnSlider">Ver galería</a>
-                </div> -->
-              </div>
-            </li>
-            <li style="background-image: url('./assets/menu_3.jpg')">
-              <div class="content_slider">
-                <!-- <div>
-                  <h2>PONTE EN CONTACTO</h2>
-                  <p>
-                    Escribenos y muy pronto nos pondremos en contacto contigo.
-                  </p>
-                  <a href="#contacto" class="btnSlider">Contactanos</a>
-                </div> -->
-              </div>
-            </li>
+            ></li>
+            <!-- <li style="background-image: url('./assets/menu_2.jpg')"></li> -->
+            <li style="background-image: url('./assets/carousel-3.jpeg')"></li>
+            <li style="background-image: url('./assets/carousel-5.jpeg')"></li>
           </ul>
         </div>
 
         <!-- Right Side -->
         <div sce>
           <div class="header-sections">
-            <h2>
-              Disfruta de los mejores platillos
-            </h2>
+            <h2>Disfruta de los mejores platillos</h2>
             <p>
-              Ven y conoce nuestra gran variedad 
-              de comida que tenemos para tí.
+              Ven y conoce nuestra gran variedad de comida que tenemos para tí.
             </p>
           </div>
           <div class="menu-list">
@@ -180,24 +146,132 @@
     </section>
     <!-- End Menu -->
 
-    <section id="eventos" class="main-eventos">
-      <div class="firs-div">
-        <label class="title">Eventos</label>
-        <label class="text" for="">Contamos con servicio de carnidas</label>
-        <label class="second-text">para eventos especiales</label>
-        <label class="third-text">No dudes en contactarnos</label>
-        <label class="fourth-text">En los mejores eventos...</label>
-        <button class="event-btn" type="button">Contactanos</button>
+    <section id="eventos" class="eventos">
+      <div class="eventos-contain">
+        <h2>Eventos</h2>
+        <p>
+          Contamos con servicio de carnidas para eventos especiales. <br />
+          No dudes en contactarnos.
+        </p>
+        <h3>En los mejores evento...</h3>
+        <div>
+          <a href="#contacto" class="btn-main">Contactanos</a>
+        </div>
+        <img src="./assets/menu_1.webp" alt="eventos_img" />
       </div>
     </section>
 
-    <section id="plataformas"></section>
+    <section id="plataformas" class="plataformas">
+      <div class="plataformas-contain">
+        <div class="plataformas-header">
+          <h2>Eventos</h2>
+          <p>Encuentranos en tus plataformas favoritas</p>
+        </div>
+        <div class="plataformas-body">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/icon_joseles.png" alt="icon_joseles" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/icon_didi.png" alt="icon_didi" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/icon_uber.png" alt="icon_uber" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/icon_rappi.png" alt="icon_rappi" />
+          </a>
+        </div>
+      </div>
+    </section>
 
-    <section id="nosotros"></section>
+    <section id="nosotros" class="nosotros">
+      <div class="nosotros-contain">
+        <div class="nosotros-info">
+          <div class="nosotros-logo">
+            <img src="./assets/logo_joseles_nosotros.png" alt="logo_joseles" />
+          </div>
+          <div>
+            <h3>Contacto</h3>
+            <a
+              class="nosotros-info-section"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./assets/icon_whatsapp.png" alt="icon_whatsapp" />
+              3221821685</a
+            >
+            <div class="nosotros-info-section">
+              <img src="./assets/icon_telefono.png" alt="icon_telefono" /> 322
+              22 5 2177
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Redes Sociales</h3>
+              <div class="nosotros-sociales">
+                <a
+                  class="nosotros-info-section"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./assets/icon_fb.png" alt="icon_fb" /> Carnitas
+                  Joseles
+                </a>
+                <a
+                  class="nosotros-info-section"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./assets/icon_yt.png" alt="icon_yt" />
+                  CarnitasJoseles
+                </a>
+                <a
+                  class="nosotros-info-section"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./assets/icon_tik_tok.png" alt="icon_tik_tok" />
+                  Carnitas_Joseles
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nosotros-mapa">
+          <div class="nosotros-direccion">
+            <h3>Dirección</h3>
+            <p>
+              C. González Gallo 75-14, Vida Vallarta, 48318 Puerto Vallarta,
+              Jal.
+            </p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14934.245670960852!2d-105.2195936!3d20.6467263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7185b8ef483c568!2sCARNITAS%20JOSELE%C2%B4S!5e0!3m2!1ses-419!2smx!4v1657950244099!5m2!1ses-419!2smx"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="powered">
+      <p>Powered By</p>
+      <img src="./assets/icon_racoon_devs.png" alt="Logo_racoon_devs" />
+      <p>Copyright 2022 Desarrollado por Racoon Devs</p>
+    </section>
 
     <script type="text/javascript" src="./js/navbar.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
     <script defer src="./js/functions.js"></script>
     <!-- No borrar es parte del certificado ssl -->
-    
   </body>
 </html>
