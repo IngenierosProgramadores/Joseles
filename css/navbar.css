@@ -13,9 +13,7 @@
   margin: 0;
   font-family: "Concert_one", Arial, Helvetica, sans-serif;
 }
-.navbar-item-home-color {
-  color: var(--main-color);
-}
+
 .navbar-item-others-color {
   color: #000;
 }
@@ -48,6 +46,7 @@
   /* color: white; */
   padding: 1rem;
   display: block;
+  font-size: 1.8rem;
 }
 
 .navbar-links li:hover {
@@ -84,7 +83,7 @@
   transition: 0.6s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 885px) {
   .toggle-button {
     display: flex;
     cursor: pointer;
