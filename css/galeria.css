@@ -1,3 +1,6 @@
+main {
+  background-color: coral;
+}
 main section {
   padding: 3rem 2rem 2rem;
 }
@@ -29,19 +32,28 @@ main section {
   background-color: coral;
 }
 .gallery {
-  columns: 1 320px;
+  columns: 2 320px;
   column-gap: 1.5em;
 }
 .gallery img {
-  min-width: 320px;
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 1.5em;
   display: block;
   outline: 2px solid #fff;
   outline-offset: -10px;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
+  .gallery {
+    columns: 2 320px;
+  }
+}
+@media (min-width: 980px) {
+  .gallery {
+    columns: 3 300px;
+  }
+}
+@media (min-width: 1200px) {
   .gallery {
     columns: 4 320px;
   }
