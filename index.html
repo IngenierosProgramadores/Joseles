@@ -17,6 +17,11 @@
       content="Restaurante Mexicano, con platillos tradicionales Mexicanos, servicio a domicilio y servicio para eventos especiales. En los mejores eventos."
     />
     <title>Carnitas Joseles</title>
+    <link
+      rel="shortcut icon"
+      href="./icono_carnitas_joseles.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="css/navbar.css" />
@@ -33,39 +38,46 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="brand-title">
-        <a href="/"
-          ><img src="./assets/logo_nav.png" alt="logo_joseles.png"
-        /></a>
-      </div>
-      <div class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-      <div class="navbar-links">
-        <ul class="navbar-item">
-          <li>
-            <a href="#home" class="navbar-item-others-color">INICIO</a>
-          </li>
-          <li>
-            <a href="#menu" class="navbar-item-others-color">MENÚ</a>
-          </li>
-          <li>
-            <a href="#eventos" class="navbar-item-others-color">EVENTOS</a>
-          </li>
-          <li>
-            <a href="#plataformas" class="navbar-item-others-color"
-              >PLATAFORMAS</a
-            >
-          </li>
-          <li>
-            <a href="#nosotros" class="navbar-item-others-color">NOSOTROS</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="navbar">
+        <div class="brand-title">
+          <a href="/"
+            ><img src="./assets/logo_nav.png" alt="logo_joseles.png"
+          /></a>
+        </div>
+        <div class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="navbar-links">
+          <ul class="navbar-item">
+            <li>
+              <a href="/" class="navbar-item-others-color">INICIO</a>
+            </li>
+            <li>
+              <a href="#menu" class="navbar-item-others-color">MENÚ</a>
+            </li>
+            <li>
+              <a href="#eventos" class="navbar-item-others-color">EVENTOS</a>
+            </li>
+            <li>
+              <a href="#plataformas" class="navbar-item-others-color"
+                >PLATAFORMAS</a
+              >
+            </li>
+            <li>
+              <a href="#nosotros" class="navbar-item-others-color">NOSOTROS</a>
+            </li>
+            <li>
+              <a href="galeria.html" class="navbar-item-others-color"
+                >GALERIA</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <div class="div-main">
@@ -127,11 +139,11 @@
             </div>
             <div class="menu-list-item">
               <h3>Quesadillas</h3>
-              <p>(CH - MD - GD)<p>
+              <p>(CH - MD - GD)</p>
+              <p></p>
               <ul>
                 <li>Sencilla</li>
-                <li>Con carne
-                surtido, buche, cuero, costilla</li>
+                <li>Con carne surtido, buche, cuero, costilla</li>
                 <li>Con Birria</li>
               </ul>
             </div>
@@ -218,18 +230,20 @@
           </div>
           <div>
             <h3>Contacto</h3>
-            <a
-              class="nosotros-info-section"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./assets/icon_whatsapp.png" alt="icon_whatsapp" />
-              3221821685</a
-            >
-            <div class="nosotros-info-section">
-              <img src="./assets/icon_telefono.png" alt="icon_telefono" /> 322
-              22 5 2177
+            <div class="contacto_numbers">
+              <a
+                class="nosotros-info-section"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="./assets/icon_whatsapp.png" alt="icon_whatsapp" />
+                <p>3221821685</p>
+              </a>
+              <div class="nosotros-info-section">
+                <img src="./assets/icon_telefono.png" alt="icon_telefono" />
+                <p>322 22 5 2177</p>
+              </div>
             </div>
           </div>
           <div>

@@ -74,10 +74,23 @@
     text-align: center;
     gap: 3rem;
   }
+  .contacto_numbers {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
   .nosotros-info-section {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 1rem;
+  }
+  .nosotros-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
   }
   .nosotros-logo {
     width: 100%;

@@ -1,0 +1,48 @@
+main section {
+  padding: 3rem 2rem 2rem;
+}
+.title-info {
+  text-align: center;
+  padding: 5%;
+  background-color: coral;
+  color: #fff;
+}
+.title-info h1 {
+  font-size: 2.5rem;
+}
+.title-info h2 {
+  font-size: 2rem;
+}
+.title-info p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.galeria {
+  width: 100%;
+}
+.galeria h4 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  background-color: coral;
+}
+.gallery {
+  columns: 1 320px;
+  column-gap: 1.5em;
+}
+.gallery img {
+  min-width: 320px;
+  max-width: 100%;
+  margin-bottom: 1.5em;
+  display: block;
+  outline: 2px solid #fff;
+  outline-offset: -10px;
+}
+
+@media (min-width: 780px) {
+  .gallery {
+    columns: 4 320px;
+  }
+}
